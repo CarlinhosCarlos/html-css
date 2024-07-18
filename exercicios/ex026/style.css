@@ -1,0 +1,10 @@
+body {
+    background-image: radial-gradient(circle, yellow, red);
+    background-attachment: fixed;
+}
+
+h2 {
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20pt, Arial;
+}

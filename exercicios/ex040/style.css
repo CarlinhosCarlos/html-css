@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover {
+   color: blue;
+}
+
+div:hover > p {
+    display: block;
+    color: white;
+    font-size: 20pt;
+    background-color: blue;
+}

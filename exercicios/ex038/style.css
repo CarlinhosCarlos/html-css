@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@keyframes animacao {
+    
+      0% {background-color: blue;width: 500px;}
+      50% {background-color: red;width: 200px;}
+      100%{background-color: yellow;width: 10px;}
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    animation-name: animacao;
+    animation-delay: 2s;
+    animation-duration: 6s;
+    background-attachment: fixed;
+    background-color: violet;
+    animation-iteration-count: infinite;
+}
+
+body {
+    background-image: linear-gradient(90deg, #00E3CC, #32A89C, #009688, #44E3D3, #00635A);
+}

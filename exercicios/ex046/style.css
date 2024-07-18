@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    background-color: navy;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    font: 40pt;
+    color: black;
+    font-size: 20pt;
+}
+
+.importance-HTML5 {
+    height: 400px;
+    width: 400px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}

@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+    color: white;
+    font: 20pt, Arial;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+p {
+    font: 100pt, Arial;
+}

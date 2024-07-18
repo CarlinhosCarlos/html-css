@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body {
+    background-color: #121619;
+}
+h1 {
+    color: white;
+
+    margin: 20px;
+    padding: 20px;
+
+    font-size: 50pt;
+    font-family: 'ibm', cursive;
+}
+
+p {
+    color: #BDB9B3;
+    font-size: 20pt;
+
+    margin: 20px;
+    padding: 20px;
+    font-family: 'ibm', cursive;
+}
+
+input {
+        border-radius: 5px 5px 5px;
+        background-color: white;
+        color: black;
+        margin: 20px;
+        padding: 20px;
+        text-align: justify;
+    
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+        height: 77px;
+        width: 250px;
+    
+}
+
+span {
+    color: #D6A756;
+}
+
+.i {
+    color: white;
+    text-align: justify;
+}
+
+@font-face {
+    font-family: 'Plex';
+    src: url(IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf) format(truetype);
+}
+
+header {
+    min-height: 100px;
+}

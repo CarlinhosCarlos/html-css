@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(90deg,#1DB18E,#2D8671,#00DCA7 );
+}
+
+header {
+    background-color: blue;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 90px 100px;
+    width: 415px;
+}
+
+div.video {
+    background-color: #2D8671;
+    margin: 0px -20px 30px -20px;
+    position: relative;
+    padding-bottom: 55%;
+}
+
+div.iframe {
+    position: absolute;
+    top: 5.9%;
+    left: 5.9%;
+    width: 90%;
+    height: 90%;
+}
