@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-image: url('imagens/naruto-uzumaki_qabz-910x510.png');
+    background-size: 100px 100px;
+    background-repeat: repeat-x;
+}
+div {
+    display: inline-block;
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: lightcyan;
+    
+  }
+
+  div#a1 {
+    background-image: linear-gradient(to bottom, blue, cyan);
+  }
+
+  div#a2 {
+    background-image: linear-gradient(to bottom, yellow, red);
+  }
+
+  div#a3 {
+    background-image: linear-gradient(to bottom, yellow, black);
+  }
