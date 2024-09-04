@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodos de GET E POST</title>
+    <link rel="stylesheet" href="curso.css">
+</head>
+<body>
+    <form action="cadastro.php" autocomplete="off" method="post">
+        <p id="primeiro">
+            <label for="inome">Nome:</label>
+            <input type="text" name="Nome" id="inome" required minlength="4">
+        </p>
+        <p id="segundo">
+            <label for="isenha">Senha:</label>
+            <input type="password" name="Senha" id="isenha" required minlength="4" size="66">
+        </p>
+        <p id="terceiro">
+            <input type="submit" value="enviar">
+            <input type="reset" value="excluir">
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos number, month, date e time</title>
+    <link rel="stylesheet" href="elementos.css">
+</head>
+<body>
+    <form action="cadastro.html" method="get">
+        <p>
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" required placeholder="digite aqui" maxlength="30">
+        </p>
+        <p>
+            <label for="iidade">idade</label>
+            <input type="number" name="idade" id="iidade" maxlength="20" step="0.5" placeholder="Digite sua idade">
+        </p>
+        <p>
+            <label for="ihora">Horario do Nascimento</label>
+            <input type="time" name="hora" id="ihora">
+        </p>
+        <p>
+            <label for="iidia">Dia do Nascimento</label>
+            <input type="date" name="dia" id="idia" value="26-09-2008">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
